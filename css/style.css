@@ -1,0 +1,34 @@
+/*
+    colours:
+    primary branding    = #d8b24f
+    header 4            = #434344
+    for grey paragraphs = #878e94
+    font-family         = 'Montserrat', sans-serif
+    box-shadow: 0 4px 44px 0 rgba(0, 0, 0, 0.07);
+*/
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Montserrat' sans-serif;
+}
+
+.hello {
+    border: 3px solid silver;
+    border-radius: 15px;
+}
+.procceed a {
+    text-decoration: none;
+    color: steelblue;
+}
+
+.socials a {
+    text-decoration: none;
+    color: steelblue;
+}
+
+.mt-6 {
+    margin-top: 275px;
+}
