@@ -7,6 +7,9 @@
 - 2 days' work (actually, only 1 day lol)
 - That's it I  think. 
 
-`P. S.` the "img/" folder will and content in it will be used in future commits.
-`
-`P. P. S.` In case you have suggestions, ideas or bugfixes, please open a pull request. I'll review and consider adding it, thanks! 
+`TODO:` 
+1. Improve the "Socials..." tab style adding `.svg` icons.
+2. Add JavaScript (oh my god)
+3. Improve the website for mobile devices.
+
+`P.S.` In case you have suggestions, ideas or bugfixes, please open a pull request. I'll review and consider adding it, thanks! 
