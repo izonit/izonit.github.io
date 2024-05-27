@@ -6,6 +6,10 @@
     font-family         = 'Montserrat', sans-serif
     box-shadow: 0 4px 44px 0 rgba(0, 0, 0, 0.07);
 */
+html {
+    scroll-behavior: smooth 1s;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -24,6 +28,11 @@ h3 {
     color: steelblue;
 }
 
+.socials {
+    border: 1.5px solid silver;
+    border-radius: 15px;
+}
+
 .socials a {
     text-decoration: none;
     color: steelblue;
@@ -35,4 +44,8 @@ h3 {
 
 #easteregg {
     cursor: pointer;
+}
+
+.card {
+    border-bottom: 1px solid silver;
 }

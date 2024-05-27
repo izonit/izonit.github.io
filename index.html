@@ -15,21 +15,82 @@
             <h1>Hello.</h1>
             <h3>This is my personal website. I put a lot of effort into it and I hope you like it ;)</h3>
         </div>
+
         <div class="container">
-            <div class="p-5 text-center bg-body-tertiary rounded-3">
-              <svg class="bi mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use></svg>
-              <h1 class="text-body-emphasis">Proceed</h1>
-              <p class="col-lg-8 mx-auto fs-5 text-muted">
-                Click the button below, in case you want to see more.
-              </p>
-              <div class="d-inline-flex gap-2">
-                <a class="btn btn-primary" href="/about.html">
-                  <div class="container"> →</div>
-                </a>
+          <div class="p-5 text-center bg-body-tertiary rounded-3">
+            <svg class="bi mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use></svg>
+            <h1 class="text-body-emphasis">Proceed</h1>
+            <p class="col-lg-8 mx-auto fs-5 text-muted">
+              Click the button below, in case you want to see more.
+            </p>
+            <div class="d-inline-flex gap-2">
+              <a class="btn btn-primary" href="#more">
+                <div class="container"> ↓</div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+          <div class="container px-4 py-5" id="custom-cards mt-5">
+            <h2 class="pb-2 border-bottom" id="more">A thing or two 'bout me</h2>
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">A brief take on my personality.</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <small>Generally a peacekeeper. I try to be as open as possible, but I can be quite unpleasing sometimes.</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <p id="easteregg">😎</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">What do I do? What I like?</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <small>I like learning new things. Oh, also: I love videogames very much. Music? I love rock, metal, metalcore, and sometimes I listen to disco.</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <p>😎</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">What also do I like to do?</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <small>Programming. It's somewhat my hobby. I know a little Python, Javascript, and surely HTML&CSS. I also have a little experience with C++.</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <p>😎</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        <footer class="container">
+
+        <footer class="mt-5 container">
             <h5>My socials...</h5>
             <!-- <svg height="100" width="200">
                 <text x="5" y="30" fill="red" font-size="25" transform="rotate(10 10,10)">Not yet!</text>
@@ -41,6 +102,11 @@
                     <strong>Mail: </strong>daniilvorobyov0501@gmail.com <br />
                     <strong>Source: </strong><a target="_blank" href="https://github.com/izonit/izonit.github.io">*click*</a>
                 </p>
-            <div>
+            </div>
+        </footer>
+
+            <h5 class="text-center">Made with ❤ by IzonitWasTaken.</h5>
+
+            <script src="js/index.js"></script>
     </body>
 </html>
