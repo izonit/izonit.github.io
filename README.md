@@ -1,4 +1,4 @@
-# izonitwastaken.github.io
+# izonit.github.io
 ### Made with <3 by, imagine, myself.
 
 ## Facts 
